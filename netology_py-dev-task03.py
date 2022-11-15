@@ -24,7 +24,7 @@ TODO Задание 2
 Инструкция по работе с PythonАnywhere доступна по ссылке: https://github.com/netology-code/guides/blob/master/python%20anywhere/instruction.md
 """
 
-# <Задание 2>
+# <Задание 1>
 DEFAULT_LIST = ['python', 'c++', 'c', 'scala', 'java']
 DEFAULT_CHAR = 'c'
 
@@ -35,7 +35,7 @@ def count_letter(words, char):
 			if letter == char:
 				count = count + 1
 	return count
-# </Задание 2>
+# </Задание 1>
 
 if __name__ == '__main__':
 	my_list = ['хлеб', 'огурчики', 'горошек', 'яйца', 'мясо', 'картофель', 'морковка', 'майонез', 'соль']
