@@ -36,32 +36,32 @@ exit
 
 
 # <Задание 1>
-# print("\n\nЗадание 1")
-# HELP = """
-# help - напечатать справку по программе.
-# add  - добавить задачу в список (название задачи запрашиваем у пользователя).
-# show - показать все добавленные задачи.
-# exit - Выход (закрыть программу)"""
-# tasks = []
-#
-# while True:
-# 	command = input("Enter command:>")
-# 	if command == 'help':
-# 		print(HELP)
-# 	elif command == 'add':
-# 		task = input("Enter task name:>")
-# 		tasks.append(task)
-# 		print("Task was add to task list...")
-# 	elif command == 'show':
-# 		print(tasks)
-# 	elif command == 'exit':
-# 		print('Прогарамма закрыта...')
-# 		break
-# 	else:
-# 		print("[Warning]: Unknown commnad!")
-# 		break
-#
-# print("Спасибо за использование! До свидания!")
+print("\n\nЗадание 1")
+HELP = """
+help - напечатать справку по программе.
+add  - добавить задачу в список (название задачи запрашиваем у пользователя).
+show - показать все добавленные задачи.
+exit - Выход (закрыть программу)"""
+tasks = []
+
+while True:
+	command = input("Enter command:>")
+	if command == 'help':
+		print(HELP)
+	elif command == 'add':
+		task = input("Enter task name:>")
+		tasks.append(task)
+		print("Task was add to task list...")
+	elif command == 'show':
+		print(tasks)
+	elif command == 'exit':
+		print('Прогарамма закрыта...')
+		break
+	else:
+		print("[Warning]: Unknown commnad!")
+		break
+
+print("Спасибо за использование! До свидания!")
 # </Задание 1>
 
 
