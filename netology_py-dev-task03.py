@@ -45,5 +45,7 @@ if __name__ == '__main__':
 
 
 # <Задание 2>
-# ... ЗАРГИСТРИРОВАЛСЯ НА https://www.pythonanywhere.com
+# ЗАРГИСТРИРОВАЛСЯ НА https://www.pythonanywhere.com
+# Инструкция по работе с PythonАnywhere доступна по ссылке (ниже):
+# https://github.com/netology-code/guides/blob/master/python%20anywhere/instruction.md
 # </Задание 2>
