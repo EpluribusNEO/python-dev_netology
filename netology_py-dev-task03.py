@@ -42,7 +42,7 @@ if __name__ == '__main__':
 	find_char = input("Введите символ для поиска:>")
 	count = count_letter(my_list, find_char)
 	print(f"Символ '{find_char}' встречается {count} раз")
-
+	print(count_letter(DEFAULT_LIST, DEFAULT_CHAR))
 
 # <Задание 2>
 # ЗАРГИСТРИРОВАЛСЯ НА https://www.pythonanywhere.com
